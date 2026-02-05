@@ -19,7 +19,7 @@ a data augmentation strategy based on trend-seasonality decomposition, with MSSF
 ### Two individual large time series datasets
 
 * [HAR dataset](https://archive.ics.uci.edu/dataset/240/human+activity+recognition+using+smartphones)
-* [ArabicDigits dataset]([https://github.com/imics-lab/TSAR](https://www.mustafabaydogan.com/research/time-series-data-mining/symbolic-representations-for-multivariate-time-series-classification-smts/))
+* [ArabicDigits dataset](https://www.mustafabaydogan.com/research/time-series-data-mining/symbolic-representations-for-multivariate-time-series-classification-smts/)
 
 ## Usage
 
