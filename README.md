@@ -10,6 +10,14 @@ Label noise significantly degrades the generalization performance of Deep Neural
 To address these challenges, this paper proposes the Robust Representation Learning Network (RoRLNet) for noisy time-series classification. RoRLNet employs a two-stage robust learning paradigm that decouples feature extraction from classifier training. In the first stage, it learns noise-robust spatio-temporal representations by integrating MixDecomposition, 
 a data augmentation strategy based on trend-seasonality decomposition, with MSSFE, a multi-scale self-supervised feature extractor. In the second stage, it trains the classifier using EnBootstrap, a soft-label correction module that stabilizes supervision by ensembling predictions from multiple models and historical epochs. Extensive experiments on multiple benchmarks under diverse noise conditions demonstrate that RoRLNet consistently outperforms state-of-the-art methods, by 7.76\%.
 
+## Overall Architecture
+
+RoRLNet decouples feature extraction from classifier training to learn noise-robust spatio-temporal representations via MSSFE and utilizes EnBootstrap to stabilize supervision by ensembling historical and cross-model predictions.
+
+<p align="center">
+<img src="./figures/architecture.png" alt="" align=center />
+</p>
+
 ## Datasets
 
 ### UEA 30 archive time series datasets
