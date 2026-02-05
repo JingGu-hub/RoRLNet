@@ -30,6 +30,11 @@ RoRLNet decouples feature extraction from classifier training to learn noise-rob
 * [ArabicDigits dataset](https://www.mustafabaydogan.com/research/time-series-data-mining/symbolic-representations-for-multivariate-time-series-classification-smts/)
 
 ## Usage
+Install Pytorch and the necessary dependencies.
+
+```
+pip install -r requirements.txt
+```
 
 To train a RoRLNet model on a dataset, run
 
