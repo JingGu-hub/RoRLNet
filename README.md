@@ -15,7 +15,7 @@ a data augmentation strategy based on trend-seasonality decomposition, with MSSF
 RoRLNet decouples feature extraction from classifier training to learn noise-robust spatio-temporal representations via MSSFE and utilizes EnBootstrap to stabilize supervision by ensembling historical and cross-model predictions.
 
 <p align="center">
-<img src="./figures/architecture.png" alt="" align=center />
+<img src="./figures/RoRLNet.png" alt="" align=center />
 </p>
 
 ## Datasets
